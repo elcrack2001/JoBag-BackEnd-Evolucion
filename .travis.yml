@@ -1,8 +1,11 @@
 language: java
 jdk:
   - openjdk8
+before_install:
+  - chmod +x mvnw
 script: "./mvnw clean install"
 notifications:
   email: markalbert_09@hotmail.com
-before_install:
-  - chmod +x mvnw
+deploy: :
+  app: jobag-best-platform
+  provider: heroku
