@@ -1,0 +1,158 @@
+-------------------------------------------------------------------------------
+Test set: com.example.jobagapi.cucumber.CucumberRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 76.583 s <<< FAILURE! - in com.example.jobagapi.cucumber.CucumberRunnerTest
+As a postulant i want to postulate a new job.  Time elapsed: 5.775 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a postulant i dont want postulate a jobs with low minimum salary  Time elapsed: 5.444 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a postulant i want to access a interview through the link  Time elapsed: 5.451 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a postulant i want to access to my active payment plans  Time elapsed: 5.427 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a postulant i want to have 2 active payment plans  Time elapsed: 5.445 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a Postulant i want to register with my email.  Time elapsed: 5.425 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a Postulant i want to see a error if the email is in use.  Time elapsed: 5.492 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+The applicant postulant to register successfully  Time elapsed: 5.466 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a Postulant i want to add to my professionalprofile my skills.  Time elapsed: 5.413 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a user i want to sign up as a employeer with a not used phone number.  Time elapsed: 5.421 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+As a Employeer i want to see a error if the number is in use.  Time elapsed: 5.426 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+Postulant is unable to register  Time elapsed: 5.427 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+The postulant enters a wrong or not allowed registration data  Time elapsed: 5.506 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+
+The psotulant did not accept the terms and conditions  Time elapsed: 5.421 s  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 
+503 Service Unavailable: [<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,b... (506 bytes)]
+

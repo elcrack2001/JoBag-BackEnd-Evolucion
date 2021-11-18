@@ -1,0 +1,10 @@
+com\example\jobagapi\cucumber\RegisterPostulantStep.class
+com\example\jobagapi\cucumber\LinkInterviewSteps.class
+com\example\jobagapi\cucumber\RegisterEmployeerSteps.class
+com\example\jobagapi\JobagApiApplicationTests.class
+com\example\jobagapi\cucumber\ApplyJobSteps.class
+com\example\jobagapi\cucumber\CucumberRunnerTest.class
+com\example\jobagapi\cucumber\PostulantEmailSteps.class
+com\example\jobagapi\cucumber\ProfessionalProfileAddinSkillsSteps.class
+com\example\jobagapi\cucumber\PlanPostulantSteps.class
+com\example\jobagapi\cucumber\StepDefinitions.class

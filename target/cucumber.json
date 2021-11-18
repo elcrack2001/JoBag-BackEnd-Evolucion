@@ -1,0 +1,851 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T18:17:02.334Z",
+        "line": 10,
+        "name": "As a postulant i want to postulate a new job.",
+        "description": "",
+        "id": "post-job-functionality;as-a-postulant-i-want-to-postulate-a-new-job.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 366262700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want a new job",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.iWantANewJob()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183353800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The job offer have a stable minimum 2500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2500",
+                  "offset": 36
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.the_job_offer_have_a_stable_minimum_and(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116999900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to see my newly job",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.iShouldBeAbleToSeeMyNewlyJob()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T18:17:03.051Z",
+        "line": 18,
+        "name": "As a postulant i dont want postulate a jobs with low minimum salary",
+        "description": "",
+        "id": "post-job-functionality;as-a-postulant-i-dont-want-postulate-a-jobs-with-low-minimum-salary;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117000500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want a new job",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.iWantANewJob()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117276800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The job offer have a low minimum 910",
+            "match": {
+              "arguments": [
+                {
+                  "val": "910",
+                  "offset": 33
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.the_job_offer_have_a_low_minimum(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to see \"El salario debe ser mayor o igual a 930\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"El salario debe ser mayor o igual a 930\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.i_should_be_able_to_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Post Job Functionality",
+    "description": "",
+    "id": "post-job-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/ApplyJob.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T18:17:03.301Z",
+        "line": 8,
+        "name": "As a postulant i want to access a interview through the link",
+        "description": "",
+        "id": "validate-link-interview;as-a-postulant-i-want-to-access-a-interview-through-the-link;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117005400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in the interview section",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.LinkInterviewSteps.iAmInTheInterviewSection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I register the interview link \"https://us04web.zoom.us/j\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://us04web.zoom.us/j\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.LinkInterviewSteps.i_register_the_interview_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to see the message \"successful access to the platform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"successful access to the platform\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.LinkInterviewSteps.i_want_to_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Link Interview",
+    "description": "",
+    "id": "validate-link-interview",
+    "keyword": "Feature",
+    "uri": "classpath:features/LinkInterview.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T18:17:03.426Z",
+        "line": 9,
+        "name": "As a postulant i want to access to my active payment plans",
+        "description": "",
+        "id": "as-a-postulant-i-want-to-see-my-possible-payment-plans;as-a-postulant-i-want-to-access-to-my-active-payment-plans;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 120106400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the plan section",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PlanPostulantSteps.i_am_in_the_plan_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314105800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to access to the plan with plan",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PlanPostulantSteps.i_want_to_access_to_the_plan_with_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112184300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to see the plan with plan description \"plan_unlimited\",posts 3, video 5 and duration 30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"plan_unlimited\"",
+                  "offset": 45
+                },
+                {
+                  "val": "3",
+                  "offset": 68
+                },
+                {
+                  "val": "5",
+                  "offset": 77
+                },
+                {
+                  "val": "30",
+                  "offset": 92
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.PlanPostulantSteps.i_want_to_see_the_plan(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T18:17:03.979Z",
+        "line": 17,
+        "name": "As a postulant i want to have 2 active payment plans",
+        "description": "",
+        "id": "as-a-postulant-i-want-to-see-my-possible-payment-plans;as-a-postulant-i-want-to-have-2-active-payment-plans;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 113110700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am in the plan section",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PlanPostulantSteps.i_am_in_the_plan_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261179100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to have more than one active payment plan",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PlanPostulantSteps.i_want_to_have_more_than_one_active_payment_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see a plan error message \"Solo puedes tener un plan activo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solo puedes tener un plan activo\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.PlanPostulantSteps.i_should_see_a_plan_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a Postulant I want to see my possible payment plans",
+    "description": "",
+    "id": "as-a-postulant-i-want-to-see-my-possible-payment-plans",
+    "keyword": "Feature",
+    "uri": "classpath:features/PlanPostulant.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T18:17:04.357Z",
+        "line": 9,
+        "name": "As a Postulant i want to register with my email.",
+        "description": "",
+        "id": "postulant-functionality;as-a-postulant-i-want-to-register-with-my-email.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 145277500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the register seccion",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.iAmInTheRegisterSection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133392600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "register with id 1 and email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 17
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.I_register_with_email(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138715200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to register",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.i_want_to_see_my_register()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T18:17:04.780Z",
+        "line": 17,
+        "name": "As a Postulant i want to see a error if the email is in use.",
+        "description": "",
+        "id": "postulant-functionality;as-a-postulant-i-want-to-see-a-error-if-the-email-is-in-use.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143100900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am in the register seccion",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.iAmInTheRegisterSection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117695900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "register a repeat email",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.register_a_repeat_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see a message \"El email ya esta en uso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"El email ya esta en uso\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.i_Should_See_A_MessageError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T18:17:05.045Z",
+        "line": 26,
+        "name": "The applicant postulant to register successfully",
+        "description": "",
+        "id": "postulant-functionality;the-applicant-postulant-to-register-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 137999900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the applicant enters the application",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.the_applicant_enters_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136380100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "press the option to register by sharpening your personal data, email, cell phone number and a password",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.press_the_option_to_register_by_sharpening_your_personal_data_email_cell_phone_number_and_a_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "you are notified by text message that the registration was successful 999999999",
+            "match": {
+              "arguments": [
+                {
+                  "val": "999999999",
+                  "offset": 70
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.you_are_notified_by_text_message_that_the_registration_was_successful(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Postulant functionality",
+    "description": "",
+    "id": "postulant-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/PostulantEmail.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T18:17:05.324Z",
+        "line": 10,
+        "name": "As a Postulant i want to add to my professionalprofile my skills.",
+        "description": "",
+        "id": "professionalprofile-functionality;as-a-postulant-i-want-to-add-to-my-professionalprofile-my-skills.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 115491100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want my professionalprofile",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.ProfessionalProfileAddinSkillsSteps.i_want_my_professionalprofile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add my new skill \"Ingles avanzado 5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ingles avanzado 5\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.ProfessionalProfileAddinSkillsSteps.i_add_my_new_skill(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1999800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to see \"Se agrego la habilidad correctamente\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Se agrego la habilidad correctamente\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.i_should_be_able_to_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ProfessionalProfile functionality",
+    "description": "",
+    "id": "professionalprofile-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/ProfessionalProfileModify.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T18:17:05.448Z",
+        "line": 10,
+        "name": "As a user i want to sign up as a employeer with a not used phone number.",
+        "description": "",
+        "id": "register-a-new-employeer;as-a-user-i-want-to-sign-up-as-a-employeer-with-a-not-used-phone-number.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117996900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can sign up as a employeer",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.RegisterEmployeerSteps.i_can_sign_up_as_a_employeer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152922000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I sending employeer to be created with employeer 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 49
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.RegisterEmployeerSteps.i_sending_employer(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120145000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to see my newly created employeer",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.RegisterEmployeerSteps.i_should_be_able_to_see_my_newly_created_employeer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T18:17:05.844Z",
+        "line": 19,
+        "name": "As a Employeer i want to see a error if the number is in use.",
+        "description": "",
+        "id": "register-a-new-employeer;as-a-employeer-i-want-to-see-a-error-if-the-number-is-in-use.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 149207700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am in the register seccion",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.PostulantEmailSteps.iAmInTheRegisterSection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122834600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "register a repeated number",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.RegisterEmployeerSteps.registerARepeatedNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see a error message \"El numero ya esta en uso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"El numero ya esta en uso\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.RegisterEmployeerSteps.iShouldSeeAErrorMessageError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register a new Employeer",
+    "description": "",
+    "id": "register-a-new-employeer",
+    "keyword": "Feature",
+    "uri": "classpath:features/RegisterEmployeer.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T18:17:06.121Z",
+        "line": 10,
+        "name": "Postulant is unable to register",
+        "description": "",
+        "id": "register-a-new-postulant;postulant-is-unable-to-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 112735400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the postulant enters the application",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.thePostulantEntersTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "you press the register option and it does not fill in the data properly 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 72
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.you_press_the_register_option_and_it_does_not_fill_in_the_data_properly(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2044000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to see \"el proceso de registro no se realiza porque debe digitar datos válidos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"el proceso de registro no se realiza porque debe digitar datos válidos\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.ApplyJobSteps.i_should_be_able_to_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T18:17:06.240Z",
+        "line": 18,
+        "name": "The postulant enters a wrong or not allowed registration data",
+        "description": "",
+        "id": "register-a-new-postulant;the-postulant-enters-a-wrong-or-not-allowed-registration-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 107508400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the postulant is filling in registration data",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.thePostulantIsFillingInRegistrationData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter a piece of information that does not meet the requirements \"mark@htomail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mark@htomail.com\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.enter_a_piece_of_information_that_does_not_meet_the_requirements(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "you are shown a message that a registration data is wrong \"el correo electronico ingresado no es valido, intente de nuevo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"el correo electronico ingresado no es valido, intente de nuevo\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.you_are_shown_a_message_that_a_registration_data_is_wrong(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T18:17:06.350Z",
+        "line": 26,
+        "name": "The psotulant did not accept the terms and conditions",
+        "description": "",
+        "id": "register-a-new-postulant;the-psotulant-did-not-accept-the-terms-and-conditions;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109999500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the postulant is completing his registration",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.thePostulantIsCompletingHisRegistration()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "does not accept the terms and conditions of account registration",
+            "match": {
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.doesNotAcceptTheTermsAndConditionsOfAccountRegistration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "you are not allowed to register and you are asked to accept the terms \"no se puedo crear la cuenta, por favor acepte los teminos y condiciones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no se puedo crear la cuenta, por favor acepte los teminos y condiciones\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.example.jobagapi.cucumber.RegisterPostulantStep.you_are_not_allowed_to_register_and_you_are_asked_to_accept_the_terms(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register a new Postulant",
+    "description": "",
+    "id": "register-a-new-postulant",
+    "keyword": "Feature",
+    "uri": "classpath:features/RegisterPostulant.feature",
+    "tags": []
+  }
+]
